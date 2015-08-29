@@ -4,9 +4,11 @@ import uuid
 
 
 class Movie(object):
+
     """
     This class will have all the details of a movie
     """
+
     def __init__(self, name, run_time, language, lead_actor, genre):
         """
         :param name:
@@ -22,6 +24,3 @@ class Movie(object):
         self.language = language
         self.lead_actor = lead_actor
         self.genre = genre
-
-
-
